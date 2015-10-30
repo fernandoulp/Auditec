@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Acceso Administrador</title>
+    <title>Bienvenido</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -61,33 +61,18 @@
    <div class="container">
 
       <form class="form-signin">
-        <h2 class="form-signin-heading">Iniciar Sesión</h2>
-        <label for="inputEmail" class="sr-only">Correo Electrónico</label>
-        <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus> <!--name="email" que es donde voy a tomar el valor que escriben para correo electrónico -->
-       
-        <label for="inputPassword" class="sr-only">Contraseña</label>
-        <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required> <!--aquí estoy asignando el valor name="password" donde se lee el valor de password que ingresan -->
-          
-        <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="check(this.form)" value="Login">Iniciar Sesión</button>
-      </form>
-
-        <script language="javascript">
-            function check(form) { /*function to check userid & password*/
-                
-                /*verifica que el correo y contraseña sean correctos*/  
-                if(form.email.value == "fernandoulp@gmail.com" && form.password.value == "utd") {
-                    window.open('admin_da.php')/*opens the target page while Id & password matches*/ 
-                }
-                else {
-                    alert("Error Password or Username")/*displays error message*/
-                }
-            }
-        </script>
+        <h2 class="form-signin-heading" align="center">Bienvenido!</h2>
+        <BR>
+        <p>Aquí puedes descargar cada uno de los formatos basados en el Sistema de Gestión de Calidad, los cuales son utilizados para el desarrollo de la Auditoría en la dependencia SEMARNAT.</p>
+        <BR>
+        <p>Formato de Visita &nbsp;&nbsp;&nbsp; Formato de Hallazgos &nbsp;&nbsp;&nbsp; Formato de la Bitácora</p>
+        <P> <img src="img/word.PNG"> <img src="img/word2.PNG"> <img src="img/word3.PNG"> </p>
+        
     </div> <!-- /container -->
 
  
     <footer>
-      <a href="#"> <img src="logotipo.png" align="middle"> </a> 
+      <img src="logotipo.png" align="middle">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
